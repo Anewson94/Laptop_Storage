@@ -1,0 +1,34 @@
+{
+  "name": "laptop_storage",
+  "version": "1.0.0",
+  "description": "In house laptop tracker",
+  "main": "app.js",
+  "scripts": {
+    "build:css": "sass src/bootstrap.scss public/css/bootstrap.css",
+    "watch:css": "sass --watch src/bootstrap.scss public/css/bootstrap.css",
+    "compile:css": "npm-run-all --parallel build:css watch:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anewson94/Laptop_Storage.git"
+  },
+  "author": "A News",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anewson94/Laptop_Storage/issues"
+  },
+  "homepage": "https://github.com/Anewson94/Laptop_Storage#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.58.0"
+  },
+  "keywords": []
+}
